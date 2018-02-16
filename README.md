@@ -1,1 +1,9 @@
-# food-composition-scraper
+scraper
+=====
+
+An OTP application
+
+Build
+-----
+
+    $ rebar3 compile
