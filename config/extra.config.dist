@@ -1,5 +1,8 @@
 [
   {scraper, [
-    {api_key, "your_api_key"}
+    {api_key, "your_api_key"},
+    {mongo_host, "127.0.0.1"},
+    {mongo_port, 37017},
+    {mongo_database, <<"food_db">>}
   ]}
 ].

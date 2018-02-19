@@ -1,17 +1,18 @@
-{application, scraper,
- [{description, "Scraper"},
-  {vsn, "0.1.0"},
+{application, scraper, [
+  {description, "Scraper"},
+  {vsn, "1.0.0"},
   {registered, []},
-  {mod, { scraper_app, []}},
-  {applications,
-   [kernel,
+  {mod, {scraper_app, []}},
+  {applications, [
+    kernel,
     stdlib,
-    gun
-   ]},
-  {env,[]},
+    mongodb,
+    gun,
+    jiffy
+  ]},
+  {env, []},
   {modules, []},
-
   {maintainers, []},
   {licenses, ["Apache 2.0"]},
   {links, []}
- ]}.
+]}.
